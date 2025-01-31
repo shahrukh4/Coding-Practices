@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Here we don't have use the seprate servives from a Hotel directly, instead we can just utilize the Hotel class
+ * Here we don't have to use the seprate servives from a Hotel directly, instead we can just utilize the Hotel class
  * and use it's services through it.
  */
 class Hotel {

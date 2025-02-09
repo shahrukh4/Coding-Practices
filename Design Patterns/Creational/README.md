@@ -41,3 +41,11 @@ ___
 - Basically we can use this pattern to get the object and use all the related properties and behaviors without thinking about the concrete classes.
 
 **Example** - [Abstract Factory Pattern](AbstractFactory.php)
+
+### Builder Pattern
+
+- This pattern is used to create an object step by step.
+
+- We can use it when we need to create a complex object and we don't want to create it all at once in a constructor passing too many arguments.
+
+**Example** - [Builder Pattern](Builder.php)

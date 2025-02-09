@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), Adapter, Decorator, Proxy, Composite, Bridge, Flyweight |
+| Structural | [Facade](#facade-pattern), Adapter, [Decorator](#decorator-pattern), Proxy, Composite, Bridge, Flyweight |
 
 ___
 
@@ -19,3 +19,10 @@ ___
 - For e.g. Hotels (Rooms, Food, Laundry), Airlines (Flights, Meals, Spa), Banks (Accounts, Cheques, Loans).
 
 **Example** - [Facade Pattern](Facade.php)
+
+### Decorator Pattern
+
+- This pattern is used to add additional functionality to an object without modifying its structure.
+- For e.g. Food (Veg, Non-Veg), Rooms (Luxury, Normal), Flights (Business, Economy).
+
+**Example** - [Decorator Pattern](Decorator.php)

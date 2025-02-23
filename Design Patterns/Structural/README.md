@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), Proxy, Composite, Bridge, Flyweight |
+| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), Composite, Bridge, Flyweight |
 
 ___
 
@@ -33,3 +33,13 @@ ___
 - For e.g. Food (Veg, Non-Veg), Rooms (Luxury, Normal), Flights (Business, Economy).
 
 **Example** - [Decorator Pattern](Decorator.php)
+
+### Proxy Pattern
+
+- This pattern is used to provide a proxy object that controls access to a real object.
+
+- This can be used when we want to implement some extra functionality to an object without modifying its structure.
+
+- For e.g. File system, Database, Caching, Downloading etc.
+
+**Example** - [Proxy Pattern](Proxy.php)

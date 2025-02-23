@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), Bridge, Flyweight |
+| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), [Bridge](#bridge-pattern), Flyweight |
 
 ___
 
@@ -53,3 +53,17 @@ ___
 - For e.g. File system, Heirarchy of a directory, Organization of employees, Products of an order inside a box etc.
 
 **Example** - [Composite Pattern](Composite.php)
+
+### Bridge Pattern
+
+- This pattern is used to decouple an abstraction from its implementation so that the two can vary independently.
+
+- We can use it when we need to separate the behavior from the implementation.
+
+- We can use it when we want to implement the functionalities separately which can be used together, so we can easily develop them and it can be opened for extension.
+
+- There are similarities between Adapter, Decorator and Bridge patterns.
+
+- For e.g. Car (Electric, Diesel, Petrol), Engine (Diesel Engine, Petrol Engine, Electric Engine).
+
+**Example** - [Bridge Pattern](Bridge.php)

@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), Adapter, [Decorator](#decorator-pattern), Proxy, Composite, Bridge, Flyweight |
+| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), Proxy, Composite, Bridge, Flyweight |
 
 ___
 
@@ -19,6 +19,13 @@ ___
 - For e.g. Hotels (Rooms, Food, Laundry), Airlines (Flights, Meals, Spa), Banks (Accounts, Cheques, Loans).
 
 **Example** - [Facade Pattern](Facade.php)
+
+### Adapter Pattern
+
+- This pattern is used to allow incompatible objects to collaborate with each other.
+- For e.g. Notification library (i.e SMS, Email, Slack, Facebook, Twitter etc) is the best example of this pattern.
+
+**Example** - [Adapter Pattern](Adapter.php)
 
 ### Decorator Pattern
 

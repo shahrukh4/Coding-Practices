@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), Composite, Bridge, Flyweight |
+| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), Bridge, Flyweight |
 
 ___
 
@@ -43,3 +43,13 @@ ___
 - For e.g. File system, Database, Caching, Downloading etc.
 
 **Example** - [Proxy Pattern](Proxy.php)
+
+### Composite Pattern
+
+- This pattern is used to represent a tree structure of objects.
+
+- We can use it when we need to work on a group of objects rather than individual objects.
+
+- For e.g. File system, Heirarchy of a directory, Organization of employees, Products of an order inside a box etc.
+
+**Example** - [Composite Pattern](Composite.php)

@@ -8,7 +8,7 @@ These patterns provide ways to structure objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), [Bridge](#bridge-pattern), Flyweight |
+| Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), [Bridge](#bridge-pattern), [Flyweight](#flyweight-pattern) |
 
 ___
 
@@ -67,3 +67,17 @@ ___
 - For e.g. Car (Electric, Diesel, Petrol), Engine (Diesel Engine, Petrol Engine, Electric Engine).
 
 **Example** - [Bridge Pattern](Bridge.php)
+
+### Flyweight Pattern
+
+- This pattern is used to share a lot of data between objects.
+
+- We can use it when we want to use the repeating data in Shared state (Extrinsic) and the changing state (Intrinsic).
+
+- It is also known as Cache pattern.
+
+- This is not very commonly used design pattern, so we can avoid it.
+
+- For e.g. Text (Normal, Bold, Italic), Font (Small, Medium, Large), Color (Red, Green, Blue).
+
+**Example** - [Flyweight Pattern](Flyweight.php)

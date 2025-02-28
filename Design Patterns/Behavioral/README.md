@@ -8,7 +8,7 @@ These patterns provide ways to communicate between objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), Iterator, [Observer](#observer-pattern), Mediator, Strategy, Command, Template Method, Visitor, Chain of Responsibility |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), Mediator, Strategy, Command, Template Method, Visitor, Chain of Responsibility |
 
 ___
 
@@ -26,6 +26,14 @@ ___
 - It can also be the example of Open-Closed Principle in SOLID Principles.
 
 **Example** - [State Pattern](State.php)
+
+### Iterator Pattern
+
+- This pattern is used to iterate over a collection of objects.
+
+- Iterator is a behavioral design pattern that allows sequential traversal through a complex data structure without exposing its internal details.
+
+**Example** - [Iterator Pattern](Iterator.php)
 
 ### Observer Pattern
 

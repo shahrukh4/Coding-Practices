@@ -28,7 +28,7 @@ class SlackNotification implements Notification {
     }
 
     public function send(string $message): void {
-        $this->slack->url = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX";
+        $this->slack->url = "YOUR_SALCK_WEBHOOK_URL";
         $this->slack->channel = "#my_channel";
         $this->slack->message = $message;
         $this->slack->send();

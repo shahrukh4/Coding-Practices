@@ -8,7 +8,7 @@ These patterns provide ways to communicate between objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), Iterator, Observer, Mediator, Strategy, Command, Template Method, Visitor, Chain of Responsibility |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), Iterator, [Observer](#observer-pattern), Mediator, Strategy, Command, Template Method, Visitor, Chain of Responsibility |
 
 ___
 
@@ -26,3 +26,11 @@ ___
 - It can also be the example of Open-Closed Principle in SOLID Principles.
 
 **Example** - [State Pattern](State.php)
+
+### Observer Pattern
+
+- This pattern is used to notify the object about the state of the subject.
+- We can simply use it for the purpose of Event-Listeners functionality.
+- Laravel uses Observer pattern for the purpose of Event-Listeners.
+
+**Example** - [Observer Pattern](Observer.php)

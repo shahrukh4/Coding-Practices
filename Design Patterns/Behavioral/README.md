@@ -8,7 +8,7 @@ These patterns provide ways to communicate between objects in a program.
 
 | Category | Patterns |
 | --- | --- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), Mediator, Strategy, Command, Template Method, Visitor, Chain of Responsibility |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), Strategy, Command, Template Method, Visitor, Chain of Responsibility |
 
 ___
 
@@ -42,3 +42,13 @@ ___
 - Laravel uses Observer pattern for the purpose of Event-Listeners.
 
 **Example** - [Observer Pattern](Observer.php)
+
+### Mediator Pattern
+
+- This pattern is used to manage the communication between the components of an application.
+
+- We can simply use it for the purpose of Centralized Control over the application with their number of components.
+
+- For e.g - A smart app controlling all the other smart devices (T.V, Camera, Light, Fan etc) which cannot be controlled individually or have a direct link for themselves.
+
+**Example** - [Mediator Pattern](Mediator.php)

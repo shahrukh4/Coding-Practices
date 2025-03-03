@@ -11,10 +11,6 @@ interface Subject {
 class Amazon implements Subject {
     private $subscribers = [];
 
-    public function __construct() {
-        $this->subscribers = array();
-    }
-
     public function subscribe(Observer $user) {
         array_push($this->subscribers, $user);
     }

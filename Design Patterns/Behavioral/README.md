@@ -6,11 +6,11 @@ These patterns provide ways to communicate between objects in a program.
 
 ## Table of Contents
 
-| Category | Patterns |
-| --- | --- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), Strategy, Command, Template Method, Visitor, Chain of Responsibility |
+| Category   | Patterns                                                                                                                                                                                                                                     |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), Command, Template Method, Visitor, Chain of Responsibility |
 
-___
+---
 
 ### Memento Pattern
 
@@ -52,3 +52,13 @@ ___
 - For e.g - A smart app controlling all the other smart devices (T.V, Camera, Light, Fan etc) which cannot be controlled individually or have a direct link for themselves.
 
 **Example** - [Mediator Pattern](Mediator.php)
+
+### Strategy Pattern
+
+- This pattern is used to define a family of algorithms, encapsulate each one, and make them interchangeable.
+
+- Strategy lets the algorithm vary independently from clients that use it.
+
+- It has similarities with Adapter pattern, Factory pattern, and Bridge pattern.
+
+**Example** - [Strategy Pattern](Strategy.php)

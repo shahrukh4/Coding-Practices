@@ -6,9 +6,9 @@ These patterns provide ways to communicate between objects in a program.
 
 ## Table of Contents
 
-| Category   | Patterns                                                                                                                                                                                                                                     |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), Command, Template Method, Visitor, Chain of Responsibility |
+| Category   | Patterns                                                                                                                                                                                                                                                         |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), Template Method, Visitor, Chain of Responsibility |
 
 ---
 
@@ -62,3 +62,13 @@ These patterns provide ways to communicate between objects in a program.
 - It has similarities with Adapter pattern, Factory pattern, and Bridge pattern.
 
 **Example** - [Strategy Pattern](Strategy.php)
+
+### Command Pattern
+
+- This pattern is used to encapsulate a request as an object, which can then be "undone" if required.
+
+- We can simply use it for the purpose of Undo/Redo functionality.
+
+- It has similarities with the Observer pattern.
+
+**Example** - [Command Pattern](Command.php)

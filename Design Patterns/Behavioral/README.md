@@ -6,9 +6,9 @@ These patterns provide ways to communicate between objects in a program.
 
 ## Table of Contents
 
-| Category   | Patterns                                                                                                                                                                                                                                                         |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), Template Method, Visitor, Chain of Responsibility |
+| Category   | Patterns                                                                                                                                                                                                                                                                                     |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), [Template Method](#template-method-pattern), Visitor, Chain of Responsibility |
 
 ---
 
@@ -72,3 +72,13 @@ These patterns provide ways to communicate between objects in a program.
 - It has similarities with the Observer pattern.
 
 **Example** - [Command Pattern](Command.php)
+
+### Template Method Pattern
+
+- This pattern is used to define a skeleton of an algorithm, which can be inherited to create new algorithms.
+
+- It is often used for the purpose of abstracting the common functionality of a set of related algorithms.
+
+- It can be used, if some functionalities are common to multiple classes, then we can move them to the abstract base class and override them in the child classes.
+
+**Example** - [Template Method Pattern](TemplateMethod.php)

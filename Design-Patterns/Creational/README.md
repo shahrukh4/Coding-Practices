@@ -6,10 +6,11 @@ These patterns provide ways to create objects in a program.
 
 ## Table of Contents
 
-| Category | Patterns |
-| --- | --- |
+| Category                           | Patterns                                                                                                                                                                                |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Creational](#creational-patterns) | [Singleton](#singleton-pattern), [Prototype](#prototype-pattern), [Factory Method](#factory-method-pattern), [Abstract Factory](#abstract-factory-pattern), [Builder](#builder-pattern) |
-___
+
+---
 
 ### Singleton Pattern
 
@@ -19,6 +20,8 @@ ___
 
 **Example** - [Singleton Pattern](Singleton.php)
 
+---
+
 ### Prototype Pattern
 
 - This pattern is used to create a new instance of an object without having to call the constructor.
@@ -26,6 +29,8 @@ ___
 - We can use it when we need to create multiple instances of a class and we don't want to modify the constructor. Simply, when we need to clone an object multiple times, we can use the Prototype pattern.
 
 **Example** - [Prototype Pattern](Prototype.php)
+
+---
 
 ### Factory Method Pattern
 
@@ -35,12 +40,16 @@ ___
 
 **Example** - [Factory Method Pattern](FactoryMethod.php)
 
+---
+
 ### Abstract Factory Pattern
 
 - This pattern is used to create a family of related objects without specifying their concrete classes.
 - Basically we can use this pattern to get the object and use all the related properties and behaviors without thinking about the concrete classes.
 
 **Example** - [Abstract Factory Pattern](AbstractFactory.php)
+
+---
 
 ### Builder Pattern
 
@@ -49,3 +58,9 @@ ___
 - We can use it when we need to create a complex object and we don't want to create it all at once in a constructor passing too many arguments.
 
 **Example** - [Builder Pattern](Builder.php)
+
+---
+
+## Usage
+
+To explore the implementation of each design pattern, refer to the corresponding navigation links and their respective PHP files. Each file contains examples and explanations of how the respective design pattern is applied.

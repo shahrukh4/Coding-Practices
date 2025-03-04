@@ -6,9 +6,9 @@ These patterns provide ways to communicate between objects in a program.
 
 ## Table of Contents
 
-| Category   | Patterns                                                                                                                                                                                                                                                                                                         |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), [Template Method](#template-method-pattern), [Visitor](#visitor-pattern), Chain of Responsibility |
+| Category   | Patterns                                                                                                                                                                                                                                                                                                                                             |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), [Template Method](#template-method-pattern), [Visitor](#visitor-pattern), [Chain of Responsibility](#chain-of-responsibility-pattern) |
 
 ---
 
@@ -94,3 +94,13 @@ These patterns provide ways to communicate between objects in a program.
 - For e.g. We can order a Macbook, which can be configured for RAM, Storage, etc. separately. So we can visit each of these configurations and get the final price.
 
 **Example** - [Visitor Pattern](Visitor.php)
+
+### Chain of Responsibility Pattern
+
+- This pattern is used to delegate the processing of a request to multiple potential handlers, each of which can decide whether to handle the request or pass it to the next handler.
+
+- It is often used for the purpose of adding Middleware functionality to an application.
+
+- In Laravel, we can use it for the purpose of adding Middlewares to an application.
+
+**Example** - [Chain of Responsibility Pattern](ChainOfResponsibility.php)

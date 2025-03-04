@@ -6,9 +6,9 @@ These patterns provide ways to communicate between objects in a program.
 
 ## Table of Contents
 
-| Category   | Patterns                                                                                                                                                                                                                                                                                     |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), [Template Method](#template-method-pattern), Visitor, Chain of Responsibility |
+| Category   | Patterns                                                                                                                                                                                                                                                                                                         |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Behavioral | [Memento](#memento-pattern), [State](#state-pattern), [Iterator](#iterator-pattern), [Observer](#observer-pattern), [Mediator](#mediator-pattern), [Strategy](#strategy-pattern), [Command](#command-pattern), [Template Method](#template-method-pattern), [Visitor](#visitor-pattern), Chain of Responsibility |
 
 ---
 
@@ -82,3 +82,15 @@ These patterns provide ways to communicate between objects in a program.
 - It can be used, if some functionalities are common to multiple classes, then we can move them to the abstract base class and override them in the child classes.
 
 **Example** - [Template Method Pattern](TemplateMethod.php)
+
+### Visitor Pattern
+
+- Visitor pattern lets you separate algorithms from the objects on which they operate.
+
+- It is often used for the purpose of adding new functionality to an object without modifying the structure of the object.
+
+- It follows the Single Responsibility and Open/Closed Principle very closely.
+
+- For e.g. We can order a Macbook, which can be configured for RAM, Storage, etc. separately. So we can visit each of these configurations and get the final price.
+
+**Example** - [Visitor Pattern](Visitor.php)

@@ -6,33 +6,43 @@ These patterns provide ways to structure objects in a program.
 
 ## Table of Contents
 
-| Category | Patterns |
-| --- | --- |
+| Category   | Patterns                                                                                                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Structural | [Facade](#facade-pattern), [Adapter](#adapter-pattern), [Decorator](#decorator-pattern), [Proxy](#proxy-pattern), [Composite](#composite-pattern), [Bridge](#bridge-pattern), [Flyweight](#flyweight-pattern) |
 
-___
+---
 
 ### Facade Pattern
 
 - This pattern is used to provide a single point of access to a complex system or a set of related objects.
+
 - We can use this pattern when there are lot of interrelated things are going on and that can be managed by only one class.
-- For e.g. Hotels (Rooms, Food, Laundry), Airlines (Flights, Meals, Spa), Banks (Accounts, Cheques, Loans).
+
+- _For e.g. Hotels (Rooms, Food, Laundry), Airlines (Flights, Meals, Spa), Banks (Accounts, Cheques, Loans)._
 
 **Example** - [Facade Pattern](Facade.php)
+
+---
 
 ### Adapter Pattern
 
 - This pattern is used to allow incompatible objects to collaborate with each other.
-- For e.g. Notification library (i.e SMS, Email, Slack, Facebook, Twitter etc) is the best example of this pattern.
+
+- _For e.g. Notification library (i.e SMS, Email, Slack, Facebook, Twitter etc) is the best example of this pattern._
 
 **Example** - [Adapter Pattern](Adapter.php)
+
+---
 
 ### Decorator Pattern
 
 - This pattern is used to add additional functionality to an object without modifying its structure.
-- For e.g. Food (Veg, Non-Veg), Rooms (Luxury, Normal), Flights (Business, Economy).
+
+- _For e.g. Food (Veg, Non-Veg), Rooms (Luxury, Normal), Flights (Business, Economy)._
 
 **Example** - [Decorator Pattern](Decorator.php)
+
+---
 
 ### Proxy Pattern
 
@@ -40,9 +50,11 @@ ___
 
 - This can be used when we want to implement some extra functionality to an object without modifying its structure.
 
-- For e.g. File system, Database, Caching, Downloading etc.
+- _For e.g. File system, Database, Caching, Downloading etc._
 
 **Example** - [Proxy Pattern](Proxy.php)
+
+---
 
 ### Composite Pattern
 
@@ -50,9 +62,11 @@ ___
 
 - We can use it when we need to work on a group of objects rather than individual objects.
 
-- For e.g. File system, Heirarchy of a directory, Organization of employees, Products of an order inside a box etc.
+- _For e.g. File system, Heirarchy of a directory, Organization of employees, Products of an order inside a box etc._
 
 **Example** - [Composite Pattern](Composite.php)
+
+---
 
 ### Bridge Pattern
 
@@ -62,11 +76,13 @@ ___
 
 - We can use it when we want to implement the functionalities separately which can be used together, so we can easily develop them and it can be opened for extension.
 
-- There are similarities between Adapter, Decorator and Bridge patterns.
+- There are similarities between **Adapter, Decorator and Bridge patterns**.
 
-- For e.g. Car (Electric, Diesel, Petrol), Engine (Diesel Engine, Petrol Engine, Electric Engine).
+- _For e.g. Car (Electric, Diesel, Petrol), Engine (Diesel Engine, Petrol Engine, Electric Engine)._
 
 **Example** - [Bridge Pattern](Bridge.php)
+
+---
 
 ### Flyweight Pattern
 
@@ -74,10 +90,16 @@ ___
 
 - We can use it when we want to use the repeating data in Shared state (Extrinsic) and the changing state (Intrinsic).
 
-- It is also known as Cache pattern.
+- It is also known as **Cache pattern**.
 
 - This is not very commonly used design pattern, so we can avoid it.
 
-- For e.g. Text (Normal, Bold, Italic), Font (Small, Medium, Large), Color (Red, Green, Blue).
+- _For e.g. Text (Normal, Bold, Italic), Font (Small, Medium, Large), Color (Red, Green, Blue)._
 
 **Example** - [Flyweight Pattern](Flyweight.php)
+
+---
+
+## Usage
+
+To explore the implementation of each design pattern, refer to the corresponding navigation links and their respective PHP files. Each file contains examples and explanations of how the respective design pattern is applied.

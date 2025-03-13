@@ -16,16 +16,21 @@ These patterns provide ways to communicate between objects in a program.
 
 - This pattern is used to restore an object to its previous state. Basically this is used to store the state of the object and restore (undo) it when needed.
 
-- We can use it where we need to implement the Undo/Redo functionality.
+- We can use it where we need to implement the _Undo/Redo_ functionality.
 
 **Example** - [Memento Pattern](Memento.php)
+
+---
 
 ### State Pattern
 
 - This pattern is used to manage the state of an object.
-- It can also be the example of Open-Closed Principle in SOLID Principles.
+
+- It can also be the example of **Open-Closed Principle** in **SOLID Principles**.
 
 **Example** - [State Pattern](State.php)
+
+---
 
 ### Iterator Pattern
 
@@ -35,13 +40,19 @@ These patterns provide ways to communicate between objects in a program.
 
 **Example** - [Iterator Pattern](Iterator.php)
 
+---
+
 ### Observer Pattern
 
 - This pattern is used to notify the object about the state of the subject.
+
 - We can simply use it for the purpose of Event-Listeners functionality.
-- Laravel uses Observer pattern for the purpose of Event-Listeners.
+
+- **Laravel** uses **Observer pattern** for the purpose of **Event-Listeners**.
 
 **Example** - [Observer Pattern](Observer.php)
+
+---
 
 ### Mediator Pattern
 
@@ -49,29 +60,35 @@ These patterns provide ways to communicate between objects in a program.
 
 - We can simply use it for the purpose of Centralized Control over the application with their number of components.
 
-- For e.g - A smart app controlling all the other smart devices (T.V, Camera, Light, Fan etc) which cannot be controlled individually or have a direct link for themselves.
+- _For e.g - A smart app controlling all the other smart devices (T.V, Camera, Light, Fan etc) which cannot be controlled individually or have a direct link for themselves._
 
 **Example** - [Mediator Pattern](Mediator.php)
+
+---
 
 ### Strategy Pattern
 
 - This pattern is used to define a family of algorithms, encapsulate each one, and make them interchangeable.
 
-- Strategy lets the algorithm vary independently from clients that use it.
+- Strategy pattern lets the algorithm vary independently from clients that use it.
 
-- It has similarities with Adapter pattern, Factory pattern, and Bridge pattern.
+- It has similarities with **Adapter pattern, Factory pattern, and Bridge pattern**.
 
 **Example** - [Strategy Pattern](Strategy.php)
+
+---
 
 ### Command Pattern
 
 - This pattern is used to encapsulate a request as an object, which can then be "undone" if required.
 
-- We can simply use it for the purpose of Undo/Redo functionality.
+- We can simply use it for the purpose of _Undo/Redo_ functionality.
 
-- It has similarities with the Observer pattern.
+- It has similarities with the **Observer pattern**.
 
 **Example** - [Command Pattern](Command.php)
+
+---
 
 ### Template Method Pattern
 
@@ -83,17 +100,21 @@ These patterns provide ways to communicate between objects in a program.
 
 **Example** - [Template Method Pattern](TemplateMethod.php)
 
+---
+
 ### Visitor Pattern
 
 - Visitor pattern lets you separate algorithms from the objects on which they operate.
 
 - It is often used for the purpose of adding new functionality to an object without modifying the structure of the object.
 
-- It follows the Single Responsibility and Open/Closed Principle very closely.
+- It follows the **Single Responsibility and Open/Closed Principle** very closely.
 
-- For e.g. We can order a Macbook, which can be configured for RAM, Storage, etc. separately. So we can visit each of these configurations and get the final price.
+- _For e.g. We can order a Macbook, which can be configured for RAM, Storage, etc. separately. So we can visit each of these configurations and get the final price._
 
 **Example** - [Visitor Pattern](Visitor.php)
+
+---
 
 ### Chain of Responsibility Pattern
 
@@ -101,6 +122,12 @@ These patterns provide ways to communicate between objects in a program.
 
 - It is often used for the purpose of adding Middleware functionality to an application.
 
-- In Laravel, we can use it for the purpose of adding Middlewares to an application.
+- In **Laravel**, we can use it for the purpose of adding **Middlewares** to an application.
 
 **Example** - [Chain of Responsibility Pattern](ChainOfResponsibility.php)
+
+---
+
+## Usage
+
+To explore the implementation of each design pattern, refer to the corresponding navigation links and their respective PHP files. Each file contains examples and explanations of how the respective design pattern is applied.

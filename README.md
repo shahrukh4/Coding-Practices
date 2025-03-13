@@ -1,6 +1,6 @@
 # Coding Practices 📚
 
-Welcome to the Coding Practices repository! Here you'll find notes on standard coding practices, Design Patterns, and SOLID principles to enhance your development experience. 🌟
+Welcome to the Coding Practices repository! Here you'll find notes on Standard Coding Practices, Design Patterns, SOLID principles, Agile principles, and other stuff related to Software design and development to enhance your development experience. 🌟
 
 ## Table of Contents 📖
 
@@ -8,6 +8,7 @@ Welcome to the Coding Practices repository! Here you'll find notes on standard c
 | ---------------- | --------------------------------------------- | ---------------------------------------------- |
 | SOLID Principles | Principles for object-oriented design         | [SOLID Principles](SOLID-Principles/README.md) |
 | Design Patterns  | Common design patterns and their applications | [Design Patterns](Design-Patterns/README.md)   |
+| Agile Principles | Principles for Agile development              | [Agile Principles](Agile-Principles/README.md) |
 
 ---
 
@@ -46,6 +47,12 @@ _"Design patterns are solutions to common and repeating problems in software des
 | [Creational](Design-Patterns/Creational/README.md) | [Singleton](Design-Patterns/Creational/README.md#singleton-pattern), [Prototype](Design-Patterns/Creational/README.md#prototype-pattern), [Factory Method](Design-Patterns/Creational/README.md#factory-method-pattern), [Abstract Factory](Design-Patterns/Creational/README.md#abstract-factory-pattern), [Builder](Design-Patterns/Creational/README.md#builder-pattern)                                                                                                                                                                                                                                                                                                                                                  |
 | [Structural](Design-Patterns/Structural/README.md) | [Facade](Design-Patterns/Structural/README.md#facade-pattern), [Adapter](Design-Patterns/Structural/README.md#adapter-pattern), [Decorator](Design-Patterns/Structural/README.md#decorator-pattern), [Proxy](Design-Patterns/Structural/README.md#proxy-pattern), [Composite](Design-Patterns/Structural/README.md#composite-pattern), [Bridge](Design-Patterns/Structural/README.md#bridge-pattern), [Flyweight](Design-Patterns/Structural/README.md#flyweight-pattern)                                                                                                                                                                                                                                                    |
 | [Behavioral](Design-Patterns/Behavioral/README.md) | [Memento](Design-Patterns/Behavioral/README.md#memento-pattern), [State](Design-Patterns/Behavioral/README.md#state-pattern), [Iterator](Design-Patterns/Behavioral/README.md#iterator-pattern), [Observer](Design-Patterns/Behavioral/README.md#observer-pattern), [Mediator](Design-Patterns/Behavioral/README.md#mediator-pattern), [Strategy](Design-Patterns/Behavioral/README.md#strategy-pattern), [Command](Design-Patterns/Behavioral/README.md#command-pattern), [Template Method](Design-Patterns/Behavioral/README.md#template-method-pattern), [Visitor](Design-Patterns/Behavioral/README.md#visitor-pattern), [Chain of Responsibility](Design-Patterns/Behavioral/README.md#chain-of-responsibility-pattern) |
+
+---
+
+### Agile Principles 🏗
+
+Agile is an iterative approach to project management and software development that focuses on flexibility, customer satisfaction, and team collaboration. For more information on Agile principles and methodologies, check out the [Agile Principles](Agile-Principles/README.md), [Agile Manifesto](https://agilemanifesto.org/) and [Agile Alliance](https://www.agilealliance.org/).
 
 ---
 

@@ -29,6 +29,10 @@ Agile is built on 12 principles that guide teams towards effective project manag
 
 ![Agile Principles Diagram](agile.jpg)
 
+---
+
+---
+
 ## Agile Methodology
 
 Agile encompasses various methodologies, including SCRUM, Kanban, and XP. This section focuses on SCRUM:
@@ -54,6 +58,10 @@ Here are some key terms used in SCRUM methodology:
 ---
 
 ![SCRUM Terms Diagram](scrum.jpg)
+
+---
+
+---
 
 ## Conclusion
 
